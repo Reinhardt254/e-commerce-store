@@ -7,6 +7,7 @@ const getBillboards = async (id: string): Promise<Billboard> => {
     const res = await axios.get(`${URL}/${id}`);
     
     return res.data;
-}
-
+} 
+ 
 export default getBillboards;   
+ 

@@ -5,11 +5,10 @@ import ProductList from "@/components/product-list";
 import Container from "@/components/ui/container";
 
 export const revalidate = 0
-
+ 
 const HomePage = async () => {
    const products = await getProducts({isFeatured: true});
-   const billboard = await getBillboards("4bb780f1-9fa4-4c55-a95d-6768471cb046");
-
+   const billboard = await getBillboards("f27f6080-59d2-44ad-979e-b746c319df24");
 
     return (
         <Container>
